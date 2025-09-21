@@ -11,7 +11,7 @@
 
 ## Introduction
 
-This project is a set of Jupyter notebooks with implementations and visualizations of biologically inspired algorithms. It is written in Python 3.12 and utilizes libraries like Matplotlib and NumPy
+This project is a set of Jupyter notebooks with implementations and visualizations of biologically inspired algorithms. It is written in Python 3.13 and utilizes libraries like Matplotlib and NumPy
 
 ## Dependencies
 
