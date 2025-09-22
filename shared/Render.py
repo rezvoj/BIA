@@ -32,7 +32,7 @@ def render_function_point(
             Z[i, j] = evaluation_function(np.array([X[i, j], Y[i, j]]))
     fig_size_inches = 500 / dpi
     fig, ax = plt.subplots(figsize=(fig_size_inches, fig_size_inches), dpi=dpi, subplot_kw={'projection': '3d'})
-    ax.plot_surface(X, Y, Z, cmap='plasma', edgecolor='none', alpha=0.5)
+    ax.plot_surface(X, Y, Z, cmap='plasma', edgecolor='none', alpha=0.3)
     if point is not None:
         px, py = point
         pz = evaluation_function(np.array([px, py]))

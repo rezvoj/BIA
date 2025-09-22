@@ -69,11 +69,11 @@ def ackley(x: np.ndarray, a: float = 20.0, b: float = 0.2, c: float = 2*np.pi):
 
 TEST_FUNCTIONS = {
     sphere: (-5.12, 5.12, 100),
-    ackley: (-32.768, 32.768, 25),
-    rastrigin: (-5.12, 5.12, 25),
+    ackley: (-32.768, 32.768, 100),
+    rastrigin: (-5.12, 5.12, 100),
     rosenbrock: (-10, 10, 100),
-    griewank: (-50, 50, 25),
-    schwefel: (-500, 500, 50),
+    griewank: (-50, 50, 100),
+    schwefel: (-500, 500, 100),
     levy: (-10, 10, 100),
     michalewicz: (0, np.pi, 100),
     zakharov: (-10, 10, 100)
