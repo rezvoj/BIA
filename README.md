@@ -38,7 +38,7 @@ Python libraries used:
 - Differential evolution and its improved versions
 - Particle Swarm Optimization with inertia weight
 - Self-organizing Migration Algorithm - AllToOne
-- (Ant Colony Optimization applied to Travelling Salesman Problem)
+- Ant Colony Optimization applied to Travelling Salesman Problem
 - (Firefly algorithm)
 - (Teaching-learning Based Optimization)
 
