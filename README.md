@@ -39,8 +39,8 @@ Python libraries used:
 - Particle Swarm Optimization with inertia weight
 - Self-organizing Migration Algorithm - AllToOne
 - Ant Colony Optimization applied to Travelling Salesman Problem
-- (Firefly algorithm)
-- (Teaching-learning Based Optimization)
+- Firefly algorithm
+- Teaching-learning Based Optimization
 - (Comparison of the previous algorithms)
 
 ## License
