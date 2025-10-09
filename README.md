@@ -41,7 +41,7 @@ Python libraries used:
 - Ant Colony Optimization applied to Travelling Salesman Problem
 - Firefly algorithm
 - Teaching-learning Based Optimization
-- (Comparison of the previous algorithms)
+- Comparison of the previous algorithms
 
 ## License
 
