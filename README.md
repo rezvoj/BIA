@@ -1,33 +1,16 @@
-# FEI VSB-TUO: Biologically Inspired Algorithms
+# FEI VSB-TUO: BIA
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Python Version](https://img.shields.io/badge/python-3.13-blue)
+![Python Version](https://img.shields.io/badge/python-3.13-blue)
 
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Dependencies](#dependencies)
 - [List of problems](#list-of-problems)
-- [License](#license)
+- [Dependencies](#dependencies)
 
 ## Introduction
 
-This project is a set of Jupyter notebooks with implementations and visualizations of biologically inspired algorithms. It is written in Python 3.13 and utilizes libraries like Matplotlib and NumPy
-
-## Dependencies
-
-Ensure you're using Python version 3.13 or higher (lower is most likely fine too).\
-Ensure the program `ffmpeg` is installed and available on system path.
-
-Install the required dependencies with:
-```bash
-pip install -r requirements.txt
-```
-
-Python libraries used:
-- ipykernel
-- numpy
-- matplotlib
-- imageio
+A set of Jupyter notebooks implementing and visualizing classical biologically inspired optimization algorithms. Each notebook covers one algorithm with a worked example and animated visualization of the search process.
 
 ## List of algorithms
 
@@ -41,8 +24,13 @@ Python libraries used:
 - Ant Colony Optimization applied to Travelling Salesman Problem
 - Firefly algorithm
 - Teaching-learning Based Optimization
-- (Comparison of the previous algorithms)
+- Performance comparison across the above
 
-## License
+## Running it
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Requires Python 3.13+ and `ffmpeg` on the system PATH (used by `imageio` to render animations).
+
+```bash
+pip install -r requirements.txt
+jupyter notebook
+```
