@@ -28,9 +28,10 @@ A set of Jupyter notebooks implementing and visualizing classical biologically i
 
 ## Running it
 
-Requires Python 3.13+ and `ffmpeg` on the system PATH (used by `imageio` to render animations).
+Requires Python 3.13 and `ffmpeg` on the system PATH (used by `imageio` to render animations).
 
 ```bash
 pip install -r requirements.txt
-jupyter notebook
 ```
+
+Open notebooks from `notebooks/` in Jupyter, VS Code, or your editor of choice.
