@@ -2,12 +2,6 @@
 
 ![Python Version](https://img.shields.io/badge/python-3.13-blue)
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [List of problems](#list-of-problems)
-- [Dependencies](#dependencies)
-
 ## Introduction
 
 A set of Jupyter notebooks implementing and visualizing classical biologically inspired optimization algorithms. Each notebook covers one algorithm with a worked example and animated visualization of the search process.
